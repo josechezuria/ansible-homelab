@@ -1,3 +1,0 @@
-192.168.0.84 ansible_user=tailscale-admin
-192.168.0.80 ansible_user=npm-admin
-192.168.0.38 ansible_user=adguard-admin
