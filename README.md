@@ -25,3 +25,6 @@ ansible all -m apt -a name=vim-nox --become --ask-become-pass
 
 SUDO APT UPDATE && SUDO APT UPGRADE -Y
 ansible all -m apt -a "update_cache=yes upgrade=yes" --become --ask-become-pass
+
+DISTRO MORE AGRESSIVE UPGRADE (EVERY 3 MONTHS FOR EXAMPLE)
+ansible al -m apt -a "update_cache=yes upgrade=dist" --become --ask-become-pass
